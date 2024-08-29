@@ -1,0 +1,13 @@
+ALTER TABLE tranx_purchase_invoice_product_sr_no_tbl
+ADD COLUMN purchase_invoice_id BIGINT NULL,
+ADD COLUMN mrp DOUBLE NULL,
+ADD COLUMN costing DOUBLE NULL,
+ADD COLUMN costing_with_tax DOUBLE NULL,
+ADD COLUMN sales_rate DOUBLE NULL,
+ADD COLUMN margin DOUBLE NULL,
+ADD COLUMN sales_ratea DOUBLE NULL,
+ADD COLUMN sales_rateb DOUBLE NULL,
+ADD COLUMN sales_ratec DOUBLE NULL,
+ADD COLUMN barcode VARCHAR(255) NULL,
+ADD COLUMN cess_per DOUBLE NULL,
+ADD COLUMN cess_amt DOUBLE NULL;
